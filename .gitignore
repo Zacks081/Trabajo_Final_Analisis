@@ -1,0 +1,20 @@
+# Entorno virtual de Python
+.venv/
+
+# Lanzador local de Windows
+iniciar_app.bat
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+
+# Base de datos de Django (la app no usa base de datos)
+db.sqlite3
+
+# Lotes de interpolación guardados desde la app (se recrean con ejemplos al iniciar)
+backend/datos_interpolacion.json
+
+# Editores y registros
+.vscode/
+.idea/
+*.log

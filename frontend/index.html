@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NumLab · Análisis Numérico EAFIT</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%236366f1%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22white%22%3E%E2%88%91%3C/text%3E%3C/svg%3E" />
+
+  <!-- Tipografías: Space Grotesk, Plus Jakarta Sans y JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- KaTeX para renderizado matemático de ecuaciones y matrices -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+    crossorigin="anonymous"
+  />
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Estilos de la aplicación -->
+  <link rel="stylesheet" href="/static/styles.css" />
+
+  <!-- React 18 y Babel (compila los .jsx en el navegador) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Componentes -->
+  <script type="text/babel" src="/static/components/MathTex.jsx"></script>
+  <script type="text/babel" src="/static/components/InteractiveCharts.jsx"></script>
+  <script type="text/babel" src="/static/components/Chapter1.jsx"></script>
+  <script type="text/babel" src="/static/components/Chapter2.jsx"></script>
+  <script type="text/babel" src="/static/components/Chapter3.jsx"></script>
+  <script type="text/babel" src="/static/components/App.jsx"></script>
+</body>
+</html>
+
